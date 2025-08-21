@@ -1,0 +1,4 @@
+Dataset,Accuracy,Precision,Recall,F1-score
+Train Set,78.6%,79.4%,77.0%,78.2%
+Validation Set,76.9%,77.6%,75.6%,76.6%
+Test Set,76.4%,77.6%,74.9%,76.3%
