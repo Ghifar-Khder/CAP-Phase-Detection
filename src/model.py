@@ -9,7 +9,7 @@ from tensorflow.keras.metrics import Recall
 from time import time
 from sklearn.metrics import confusion_matrix
 
-# Define the new CAP phase model with modified architecture
+# Define the CAP phase model
 def CAP_phase_model(input_shape, x_train, y_train, x_val, y_val, model_save_path):
     start = time()
     input_img = tf.keras.Input(shape=input_shape)
@@ -21,7 +21,7 @@ def CAP_phase_model(input_shape, x_train, y_train, x_val, y_val, model_save_path
     P1 = tfl.MaxPooling1D(pool_size=12, padding='same')(A1)
     D2 = tfl.Dropout(0.2)(P1)
     # Second Convolutional Block
-    Z2 = tfl.Conv1D(filters=12, kernel_size=4, strides=1, padding='same')(P1)
+    Z2 = tfl.Conv1D(filters=12, kernel_size=4, strides=1, padding='same')(D2)
     A2 = tfl.ReLU()(Z2)
     P2 = tfl.MaxPooling1D(pool_size=6, padding='same')(A2)
 
