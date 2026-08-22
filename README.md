@@ -2,8 +2,10 @@
 
 A deep learning tool designed to automate the classification of Cyclic Alternating Pattern (CAP) sleep phases from single-channel EEG signals. This project addresses the critical challenge of manual CAP phase scoring, which is labor-intensive for clinicians but holds significant potential for diagnosing sleep disorders like narcolepsy, REM sleep behavior disorder (RBD), and insomnia. The system provides a completely autonomous approach, requiring no manual feature extraction.
 
-## Disclaimer
-This is a **very basic project** built for learning purposes — not a validated diagnostic tool.
+> **Disclaimer:** This is a very basic project built for learning purposes — not a validated diagnostic tool. See some more advanced projects:
+> - [Knee Osteoarthritis Classification](https://github.com/Ghifar-Khder/knee-osteoarthritis-classification)
+> - [Diabetes Prediction](https://github.com/Ghifar-Khder/Diabetes-Prediction)
+> - [Crop Disease & Yield Prediction](https://github.com/Ghifar-Khder/crop-disease-yield-prediction)
 ## Features
 
 -   **Automated CAP Phase Classification:** Classifies 2-second EEG signal segments into CAP Phase A (aggregating sub-phases A1, A2, A3) or Phase B.
