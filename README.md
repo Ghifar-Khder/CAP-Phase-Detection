@@ -109,5 +109,6 @@ The user interface is a Python application that runs locally. It is designed for
 
 ## Contact
 For questions or suggestions, please contact:
-- Ghifar Khder: ghifarkhoder444@gmail.com
-- Project Repository: https://github.com/Ghifar-Khder/CAP-Phase-Detection
+- **Ghifar Khder:** ghifarkhder2000@gmail.com
+- **LinkedIn:** [linkedin:Ghifar Khder](https://www.linkedin.com/in/ghifar-khder)
+- **Project Repository:** https://github.com/Ghifar-Khder/CAP-Phase-Detection
