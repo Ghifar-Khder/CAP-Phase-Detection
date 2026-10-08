@@ -118,3 +118,7 @@ For questions or suggestions, please contact:
 - **Ghifar Khder:** ghifarkhder2000@gmail.com
 - **LinkedIn:** [**linkedin: Ghifar Khder**](https://www.linkedin.com/in/ghifar-khder)
 - **Project Repository:** https://github.com/Ghifar-Khder/CAP-Phase-Detection
+
+## Author
+
+[Ghifar Khder](https://ghifar-khder.github.io/portfolio/)
